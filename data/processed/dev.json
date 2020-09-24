@@ -1,0 +1,1532 @@
+[
+    {
+        "context_tokens": "A B cell identifies pathogens when antibodies on its surface bind to a specific foreign antigen . This antigen / antibody complex is taken up by the B cell and processed by proteolysis into peptides . The B cell then displays these antigenic peptides on its surface MHC class II molecules . This combination of MHC and antigen attracts a matching helper T cell , which releases lymphokines and activates the B cell . As the activated B cell then begins to divide , its offspring ( plasma cells ) secrete millions of copies of the antibody that recognizes this antigen . These antibodies circulate in blood plasma and lymph , bind to pathogens expressing the antigen and mark them for destruction by complement activation or for uptake and destruction by phagocytes . Antibodies can also neutralize challenges directly , by binding to bacterial toxins or by interfering with the receptors that viruses and bacteria use to infect cells .",
+        "answers": [
+            [
+                "B cell",
+                1,
+                2
+            ],
+            [
+                "proteolysis",
+                32,
+                32
+            ],
+            [
+                "lymphokines",
+                67,
+                67
+            ]
+        ]
+    },
+    {
+        "context_tokens": "This means that in a closed system of particles , there are no internal forces that are unbalanced . That is , the action - reaction force shared between any two objects in a closed system will not cause the center of mass of the system to accelerate . The constituent objects only accelerate with respect to each other , the system itself remains unaccelerated . Alternatively , if an external force acts on the system , then the center of mass will experience an acceleration proportional to the magnitude of the external force divided by the mass of the system.:19-1",
+        "answers": [
+            [
+                "closed",
+                5,
+                5
+            ],
+            [
+                "center of mass",
+                79,
+                81
+            ],
+            [
+                "mass of the system",
+                97,
+                100
+            ]
+        ]
+    },
+    {
+        "context_tokens": "With the 2011 cancellation of Supernanny , Extreme Makeover : Home Edition became the only remaining program on the network 's schedule that was broadcast in 4:3 standard definition . All of the network 's programming has been presented in HD since January 2012 ( with the exception of certain holiday specials produced prior to 2005 \u2013 such as the Peanuts specials and Rudolph 's Shiny New Year \u2013 which continue to be presented in 4:3 SD ) , when Extreme Makeover : Home Edition ended its run as a regular series and One Life to Live ( which had been presented in 16:9 standard definition since 2010 ) also ended its ABC run . The affiliate - syndicated Saturday morning E/I block Litton 's Weekend Aventure is also broadcast in HD , and was the first children 's program block on any U.S. broadcast network to feature programs available in the format upon its September 2011 debut .",
+        "answers": [
+            [
+                "2011",
+                2,
+                2
+            ],
+            [
+                "Extreme Makeover: Home Edition",
+                7,
+                11
+            ],
+            [
+                "HD",
+                40,
+                40
+            ],
+            [
+                "Litton's Weekend Aventure",
+                123,
+                126
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The Panthers seemed primed to score on their opening drive of the second half when Newton completed a 45 - yard pass to Ted Ginn Jr. on the Denver 35 - yard line on their second offensive play . But the Broncos defense halted the drive on the 26 - yard line , and it ended with no points when Graham Gano hit the uprights on a 44 - yard field goal attempt . After the miss , Manning completed a pair of passes to Emmanuel Sanders for gains of 25 and 22 yards , setting up McManus ' 33 - yard field goal that gave the Broncos a 16 \u2013 7 lead . Carolina got off to another strong start after the kickoff , with Newton completing a 42 - yard pass to Corey Brown . But once again they came up empty , this time as a result of a Newton pass that bounced off the hands of Ginn and was intercepted by safety T. J. Ward . Ward fumbled the ball during the return , but Trevathan recovered it to enable Denver to keep possession .",
+        "answers": [
+            [
+                "Ted Ginn Jr.",
+                23,
+                25
+            ],
+            [
+                "Ted Ginn Jr.",
+                23,
+                25
+            ],
+            [
+                "Ted Ginn Jr.",
+                23,
+                25
+            ],
+            [
+                "26-yard line",
+                48,
+                51
+            ],
+            [
+                "Graham Gano",
+                60,
+                61
+            ],
+            [
+                "Graham Gano",
+                60,
+                61
+            ],
+            [
+                "the uprights",
+                63,
+                64
+            ],
+            [
+                "44",
+                67,
+                67
+            ],
+            [
+                "Emmanuel Sanders",
+                85,
+                86
+            ],
+            [
+                "McManus",
+                97,
+                97
+            ],
+            [
+                "T. J. Ward",
+                166,
+                168
+            ],
+            [
+                "T. J. Ward.",
+                166,
+                169
+            ],
+            [
+                "Trevathan",
+                179,
+                179
+            ]
+        ]
+    },
+    {
+        "context_tokens": "In addition to climate assessment reports , the IPCC is publishing Special Reports on specific topics . The preparation and approval process for all IPCC Special Reports follows the same procedures as for IPCC Assessment Reports . In the year 2011 two IPCC Special Report were finalized , the Special Report on Renewable Energy Sources and Climate Change Mitigation ( SRREN ) and the Special Report on Managing Risks of Extreme Events and Disasters to Advance Climate Change Adaptation ( SREX ) . Both Special Reports were requested by governments .",
+        "answers": [
+            [
+                "the same procedures as for IPCC Assessment Reports",
+                28,
+                35
+            ],
+            [
+                "2011",
+                40,
+                40
+            ],
+            [
+                "2011",
+                40,
+                40
+            ],
+            [
+                "requested by governments",
+                87,
+                89
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Religiously affiliated and denominational schools form a subcategory of private schools . Some such schools teach religious education , together with the usual academic subjects to impress their particular faith 's beliefs and traditions in the students who attend . Others use the denomination as more of a general label to describe on what the founders based their belief , while still maintaining a fine distinction between academics and religion . They include parochial schools , a term which is often used to denote Roman Catholic schools . Other religious groups represented in the K - 12 private education sector include Protestants , Jews , Muslims and the Orthodox Christians .",
+        "answers": [
+            [
+                "religious",
+                16,
+                16
+            ],
+            [
+                "Roman Catholic",
+                84,
+                85
+            ],
+            [
+                "Orthodox Christians",
+                108,
+                109
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The common pattern comes from John Wesley , who wrote that \" there is no Liturgy in the world , either in ancient or modern language , which breathes more of a solid , scriptural , rational piety , than the Common Prayer of the Church of England . \" When the Methodists in America were separated from the Church of England , John Wesley himself provided a revised version of The Book of Common Prayer called the Sunday Service of the Methodists in North America . Wesley 's Sunday Service has shaped the official liturgies of the Methodists ever since .",
+        "answers": [
+            [
+                "When the Methodists in America were separated from the Church of England",
+                50,
+                61
+            ],
+            [
+                "The Book of Common Prayer",
+                71,
+                75
+            ],
+            [
+                "Sunday Service of the Methodists in North America",
+                78,
+                85
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Even though some proofs of complexity - theoretic theorems regularly assume some concrete choice of input encoding , one tries to keep the discussion abstract enough to be independent of the choice of encoding . This can be achieved by ensuring that different representations can be transformed into each other efficiently .",
+        "answers": [
+            [
+                "input encoding",
+                15,
+                16
+            ],
+            [
+                "encoding",
+                16,
+                16
+            ]
+        ]
+    },
+    {
+        "context_tokens": "At the end of World War I , the Rhineland was subject to the Treaty of Versailles . This decreed that it would be occupied by the allies , until 1935 and after that , it would be a demilitarised zone , with the German army forbidden to enter . The Treaty of Versailles and this particular provision , in general , caused much resentment in Germany and is often cited as helping Adolf Hitler 's rise to power . The allies left the Rhineland , in 1930 and the German army re-occupied it in 1936 , which was enormously popular in Germany . Although the allies could probably have prevented the re-occupation , Britain and France were not inclined to do so , a feature of their policy of appeasement to Hitler .",
+        "answers": [
+            [
+                "end of World War I",
+                2,
+                6
+            ],
+            [
+                "1935",
+                30,
+                30
+            ],
+            [
+                "German army",
+                44,
+                45
+            ],
+            [
+                "Adolf Hitler's rise to power",
+                73,
+                78
+            ],
+            [
+                "1936",
+                95,
+                95
+            ]
+        ]
+    },
+    {
+        "context_tokens": "In particular , this norm gets smaller when a number is multiplied by p , in sharp contrast to the usual absolute value ( also referred to as the infinite prime ) . While completing Q ( roughly , filling the gaps ) with respect to the absolute value yields the field of real numbers , completing with respect to the p-adic norm | \u2212 |p yields the field of p-adic numbers . These are essentially all possible ways to complete Q , by Ostrowski 's theorem . Certain arithmetic questions related to Q or more general global fields may be transferred back and forth to the completed ( or local ) fields . This local - global principle again underlines the importance of primes to number theory .",
+        "answers": [
+            [
+                "norm gets smaller",
+                4,
+                6
+            ],
+            [
+                "the absolute value",
+                46,
+                48
+            ],
+            [
+                "completed (or local) fields",
+                107,
+                112
+            ],
+            [
+                "local-global principle",
+                115,
+                118
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The objective is typically accomplished through either an informal or formal approach to learning , including a course of study and lesson plan that teaches skills , knowledge and / or thinking skills . Different ways to teach are often referred to as pedagogy . When deciding what teaching method to use teachers consider students ' background knowledge , environment , and their learning goals as well as standardized curricula as determined by the relevant authority . Many times , teachers assist in learning outside of the classroom by accompanying students on field trips . The increasing use of technology , specifically the rise of the internet over the past decade , has begun to shape the way teachers approach their roles in the classroom .",
+        "answers": [
+            [
+                "informal",
+                8,
+                8
+            ],
+            [
+                "pedagogy",
+                43,
+                43
+            ],
+            [
+                "field trips",
+                92,
+                93
+            ],
+            [
+                "increasing use of technology",
+                96,
+                99
+            ],
+            [
+                "the internet",
+                105,
+                106
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Following the utilitarian principle of seeking the greatest good for the greatest number \u2013 economic inequality is problematic . A house that provides less utility to a millionaire as a summer home than it would to a homeless family of five , is an example of reduced \" distributive efficiency \" within society , that decreases marginal utility of wealth and thus the sum total of personal utility . An additional dollar spent by a poor person will go to things providing a great deal of utility to that person , such as basic necessities like food , water , and healthcare ; while , an additional dollar spent by a much richer person will very likely go to luxury items providing relatively less utility to that person . Thus , the marginal utility of wealth per person ( \" the additional dollar \" ) decreases as a person becomes richer . From this standpoint , for any given amount of wealth in society , a society with more equality will have higher aggregate utility . Some studies have found evidence for this theory , noting that in societies where inequality is lower , population - wide satisfaction and happiness tend to be higher .",
+        "answers": [
+            [
+                "the greatest good",
+                6,
+                8
+            ],
+            [
+                "distributive efficiency",
+                48,
+                49
+            ],
+            [
+                "a great deal of utility",
+                82,
+                86
+            ],
+            [
+                "decreases",
+                145,
+                145
+            ],
+            [
+                "higher aggregate utility",
+                172,
+                174
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The Mongol Empire was governed by a civilian and military code , called the Yassa , created by Genghis Khan . The Mongol Empire did not emphasize the importance of ethnicity and race in the administrative realm , instead adopting an approach grounded in meritocracy . The exception was the role of Genghis Khan and his family . The Mongol Empire was one of the most ethnically and culturally diverse empires in history , as befitted its size . Many of the empire 's nomadic inhabitants considered themselves Mongols in military and civilian life , including Mongols , Turks and others and included many diverse Khans of various ethnicities as part of the Mongol Empire such as Muhammad Khan .",
+        "answers": [
+            [
+                "Yassa",
+                14,
+                14
+            ],
+            [
+                "Genghis Khan",
+                18,
+                19
+            ],
+            [
+                "meritocracy",
+                44,
+                44
+            ],
+            [
+                "Genghis Khan and his family",
+                52,
+                56
+            ],
+            [
+                "Muhammad Khan",
+                117,
+                118
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The dialect of Newcastle is known as Geordie , and contains a large amount of vocabulary and distinctive word pronunciations not used in other parts of the United Kingdom . The Geordie dialect has much of its origins in the language spoken by the Anglo - Saxon populations who migrated to and conquered much of England after the end of Roman Imperial rule . This language was the forerunner of Modern English ; but while the dialects of other English regions have been heavily altered by the influences of other foreign languages \u2014 particularly Latin and Norman French\u2014 the Geordie dialect retains many elements of the old language . An example of this is the pronunciation of certain words : \" dead \" , \" cow \" , \" house \" and \" strong \" are pronounced \" deed \" , \" coo \" , \" hoos \" and \" strang \" \u2014 which is how they were pronounced in the Anglo - Saxon language . Other Geordie words with Anglo - Saxon origins include : \" larn \" ( from the Anglo - Saxon \" laeran \" , meaning \" teach \" ) , \" burn \" ( \" stream \" ) and \" gan \" ( \" go \" ) .",
+        "answers": [
+            [
+                "Geordie",
+                7,
+                7
+            ],
+            [
+                "Anglo-Saxon populations",
+                44,
+                47
+            ],
+            [
+                "many elements",
+                102,
+                103
+            ],
+            [
+                "strong",
+                133,
+                133
+            ],
+            [
+                "stream",
+                200,
+                200
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The Presiding Officer ( or Deputy Presiding Officer ) decides who speaks in chamber debates and the amount of time for which they are allowed to speak . Normally , the Presiding Officer tries to achieve a balance between different viewpoints and political parties when selecting members to speak . Typically , ministers or party leaders open debates , with opening speakers given between 5 and 20 minutes , and succeeding speakers allocated less time . The Presiding Officer can reduce speaking time if a large number of members wish to participate in the debate . Debate is more informal than in some parliamentary systems . Members may call each other directly by name , rather than by constituency or cabinet position , and hand clapping is allowed . Speeches to the chamber are normally delivered in English , but members may use Scots , Gaelic , or any other language with the agreement of the Presiding Officer . The Scottish Parliament has conducted debates in the Gaelic language .",
+        "answers": [
+            [
+                "The Presiding Officer",
+                0,
+                2
+            ],
+            [
+                "amount of time for which they are allowed to speak",
+                17,
+                26
+            ],
+            [
+                "different viewpoints",
+                39,
+                40
+            ],
+            [
+                "ministers or party leaders",
+                52,
+                55
+            ],
+            [
+                "Gaelic",
+                167,
+                167
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Parliamentary time is also set aside for question periods in the debating chamber . A \" General Question Time \" takes place on a Thursday between 11:40 a.m. and 12 p.m. where members can direct questions to any member of the Scottish Government . At 2.30 pm , a 40 - minute long themed \" Question Time \" takes place , where members can ask questions of ministers in departments that are selected for questioning that sitting day , such as health and justice or education and transport . Between 12 p.m. and 12:30 p.m. on Thursdays , when Parliament is sitting , First Minister 's Question Time takes place . This gives members an opportunity to question the First Minister directly on issues under their jurisdiction . Opposition leaders ask a general question of the First Minister and then supplementary questions . Such a practice enables a \" lead - in \" to the questioner , who then uses their supplementary question to ask the First Minister any issue . The four general questions available to opposition leaders are :",
+        "answers": [
+            [
+                "Parliamentary time",
+                0,
+                1
+            ],
+            [
+                "Thursday",
+                24,
+                24
+            ],
+            [
+                "any member of the Scottish Government",
+                37,
+                42
+            ],
+            [
+                "issues under their jurisdiction",
+                123,
+                126
+            ],
+            [
+                "four",
+                172,
+                172
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Building activity occurred in numerous noble palaces and churches during the later decades of the 17th century . One of the best examples of this architecture are Krasi\u0144ski Palace ( 1677 \u2013 1683 ) , Wilan\u00f3w Palace ( 1677\u20131696 ) and St. Kazimierz Church ( 1688 \u2013 1692 ) . The most impressive examples of rococo architecture are Czapski Palace ( 1712 \u2013 1721 ) , Palace of the Four Winds ( 1730 s ) and Visitationist Church ( fa\u00e7ade 1728\u20131761 ) . The neoclassical architecture in Warsaw can be described by the simplicity of the geometrical forms teamed with a great inspiration from the Roman period . Some of the best examples of the neoclassical style are the Palace on the Water ( rebuilt 1775 \u2013 1795 ) , Kr\u00f3likarnia ( 1782\u20131786 ) , Carmelite Church ( fa\u00e7ade 1761\u20131783 ) and Evangelical Holy Trinity Church ( 1777\u20131782 ) . The economic growth during the first years of Congress Poland caused a rapid rise architecture . The Neoclassical revival affected all aspects of architecture , the most notable are the Great Theater ( 1825\u20131833 ) and buildings located at Bank Square ( 1825\u20131828 ) .",
+        "answers": [
+            [
+                "17th century",
+                15,
+                16
+            ],
+            [
+                "1688\u20131692",
+                45,
+                47
+            ],
+            [
+                "rococo",
+                55,
+                55
+            ],
+            [
+                "neoclassical architecture",
+                84,
+                85
+            ],
+            [
+                "1775\u20131795",
+                125,
+                127
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The name Rijn , from here on , is used only for smaller streams farther to the north , which together formed the main river Rhine in Roman times . Though they retained the name , these streams no longer carry water from the Rhine , but are used for draining the surrounding land and polders . From Wijk bij Duurstede , the old north branch of the Rhine is called Kromme Rijn ( \" Bent Rhine \" ) past Utrecht , first Leidse Rijn ( \" Rhine of Leiden \" ) and then , Oude Rijn ( \" Old Rhine \" ) . The latter flows west into a sluice at Katwijk , where its waters can be discharged into the North Sea . This branch once formed the line along which the Limes Germanicus were built . During periods of lower sea levels within the various ice ages , the Rhine took a left turn , creating the Channel River , the course of which now lies below the English Channel .",
+        "answers": [
+            [
+                "Rijn",
+                2,
+                2
+            ],
+            [
+                "draining the surrounding land",
+                50,
+                53
+            ],
+            [
+                "Kromme Rijn",
+                71,
+                72
+            ],
+            [
+                "Bent Rhine",
+                75,
+                76
+            ],
+            [
+                "Old Rhine",
+                99,
+                100
+            ]
+        ]
+    },
+    {
+        "context_tokens": "LeGrande writes that \" the formulation of a single all - encompassing definition of the term is extremely difficult , if not impossible . In reviewing the voluminous literature on the subject , the student of civil disobedience rapidly finds himself surrounded by a maze of semantical problems and grammatical niceties . Like Alice in Wonderland , he often finds that specific terminology has no more ( or no less ) meaning than the individual orator intends it to have . \" He encourages a distinction between lawful protest demonstration , nonviolent civil disobedience , and violent civil disobedience .",
+        "answers": [
+            [
+                "LeGrande",
+                0,
+                0
+            ],
+            [
+                "LeGrande",
+                0,
+                0
+            ],
+            [
+                "impossible",
+                22,
+                22
+            ],
+            [
+                "voluminous literature",
+                27,
+                28
+            ],
+            [
+                "semantical",
+                46,
+                46
+            ],
+            [
+                "semantical problems and grammatical niceties",
+                46,
+                50
+            ],
+            [
+                "specific",
+                61,
+                61
+            ],
+            [
+                "lawful protest demonstration, nonviolent civil disobedience, and violent civil disobedience",
+                87,
+                98
+            ],
+            [
+                "nonviolent civil disobedience",
+                91,
+                93
+            ],
+            [
+                "violent civil disobedience",
+                96,
+                98
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The chloroplast double membrane is also often compared to the mitochondrial double membrane . This is not a valid comparison \u2014 the inner mitochondria membrane is used to run proton pumps and carry out oxidative phosphorylation across to generate ATP energy . The only chloroplast structure that can considered analogous to it is the internal thylakoid system . Even so , in terms of \" in - out \" , the direction of chloroplast H + ion flow is in the opposite direction compared to oxidative phosphorylation in mitochondria . In addition , in terms of function , the inner chloroplast membrane , which regulates metabolite passage and synthesizes some materials , has no counterpart in the mitochondrion .",
+        "answers": [
+            [
+                "the mitochondrial double membrane",
+                9,
+                12
+            ],
+            [
+                "run proton pumps and carry out oxidative phosphorylation",
+                28,
+                35
+            ],
+            [
+                "generate ATP energy",
+                38,
+                40
+            ],
+            [
+                "the internal thylakoid system",
+                53,
+                56
+            ],
+            [
+                "the inner chloroplast membrane",
+                98,
+                101
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The United Methodist Church is the largest denomination within the wider Methodist movement , which has approximately 80 million adherents across the world . In the United States , the UMC ranks as the largest mainline Protestant denomination , the largest Protestant church after the Southern Baptist Convention , and the third largest Christian denomination . As of 2014 , worldwide membership was about 12 million : 7.2 million in the United States , and 4.4 million in Africa , Asia and Europe . It is a member of the World Council of Churches , the World Methodist Council , and other religious associations . In 2015 , Pew Research estimated that 3.6 % of the U.S population , or 9 million adult adherents , self - identify with the United Methodist Church revealing a much larger number of adherents than registered membership .",
+        "answers": [
+            [
+                "United Methodist Church",
+                1,
+                3
+            ],
+            [
+                "80 million",
+                17,
+                18
+            ],
+            [
+                "mainline Protestant denomination",
+                35,
+                37
+            ],
+            [
+                "3.6%",
+                112,
+                113
+            ]
+        ]
+    },
+    {
+        "context_tokens": "By July 1944 , the Red Army was deep into Polish territory and pursuing the Germans toward Warsaw . Knowing that Stalin was hostile to the idea of an independent Poland , the Polish government - in - exile in London gave orders to the underground Home Army ( AK ) to try to seize control of Warsaw from the Germans before the Red Army arrived . Thus , on 1 August 1944 , as the Red Army was nearing the city , the Warsaw Uprising began . The armed struggle , planned to last 48 hours , was partially successful , however it went on for 63 days . Eventually the Home Army fighters and civilians assisting them were forced to capitulate . They were transported to PoW camps in Germany , while the entire civilian population was expelled . Polish civilian deaths are estimated at between 150,000 and 200,000 .",
+        "answers": [
+            [
+                "the Red Army",
+                4,
+                6
+            ],
+            [
+                "Stalin was hostile to the idea of an independent Poland",
+                21,
+                30
+            ],
+            [
+                "August 1944",
+                71,
+                72
+            ],
+            [
+                "63 days",
+                107,
+                108
+            ],
+            [
+                "between 150,000 and 200,000",
+                147,
+                150
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Plotting the relationship between level of income and inequality , Kuznets saw middle - income developing economies level of inequality bulging out to form what is now known as the Kuznets curve . Kuznets demonstrated this relationship using cross - sectional data . However , more recent testing of this theory with superior panel data has shown it to be very weak . Kuznets ' curve predicts that income inequality will eventually decrease given time . As an example , income inequality did fall in the United States during its High school movement from 1910 to 1940 and thereafter . [ citation needed ] However , recent data shows that the level of income inequality began to rise after the 1970s . This does not necessarily disprove Kuznets ' theory . [ citation needed ] It may be possible that another Kuznets ' cycle is occurring , specifically the move from the manufacturing sector to the service sector . [ citation needed ] This implies that it may be possible for multiple Kuznets ' cycles to be in effect at any given time .",
+        "answers": [
+            [
+                "Kuznets",
+                10,
+                10
+            ],
+            [
+                "Kuznets curve",
+                30,
+                31
+            ],
+            [
+                "very weak",
+                60,
+                61
+            ],
+            [
+                "eventually decrease",
+                71,
+                72
+            ],
+            [
+                "1910 to 1940",
+                94,
+                96
+            ],
+            [
+                "1970s",
+                120,
+                120
+            ],
+            [
+                "manufacturing",
+                152,
+                152
+            ],
+            [
+                "service",
+                156,
+                156
+            ],
+            [
+                "effect",
+                178,
+                178
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Each sitting day , normally at 5 pm , MSPs decide on all the motions and amendments that have been moved that day . This \" Decision Time \" is heralded by the sounding of the division bell , which is heard throughout the Parliamentary campus and alerts MSPs who are not in the chamber to return and vote . At Decision Time , the Presiding Officer puts questions on the motions and amendments by reading out the name of the motion or amendment as well as the proposer and asking \" Are we all agreed ? \" , to which the chamber first votes orally . If there is audible dissent , the Presiding Officer announces \" There will be a division \" and members vote by means of electronic consoles on their desks . Each MSP has a unique access card with a microchip which , when inserted into the console , identifies them and allows them to vote . As a result , the outcome of each division is known in seconds .",
+        "answers": [
+            [
+                "5 pm",
+                6,
+                7
+            ],
+            [
+                "\"Decision Time\"",
+                25,
+                28
+            ],
+            [
+                "vote",
+                58,
+                58
+            ],
+            [
+                "electronic consoles on their desks",
+                130,
+                134
+            ],
+            [
+                "seconds",
+                174,
+                174
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Western medicine was also practiced in China by the Nestorian Christians of the Yuan court , where it was sometimes labeled as huihui or Muslim medicine . The Nestorian physician Jesus the Interpreter founded the Office of Western Medicine in 1263 during the reign of Kublai . Huihui doctors staffed at two imperial hospitals were responsible for treating the imperial family and members of the court . Chinese physicians opposed Western medicine because its humoral system contradicted the yin-yang and wuxing philosophy underlying traditional Chinese medicine . No Chinese translation of Western medical works is known , but it is possible that the Chinese had access to Avicenna 's The Canon of Medicine .",
+        "answers": [
+            [
+                "Muslim medicine",
+                24,
+                25
+            ],
+            [
+                "Jesus the Interpreter",
+                30,
+                32
+            ],
+            [
+                "1263",
+                40,
+                40
+            ],
+            [
+                "its humoral system",
+                73,
+                75
+            ],
+            [
+                "yin-yang and wuxing",
+                78,
+                80
+            ]
+        ]
+    },
+    {
+        "context_tokens": "On October 6 , 1973 , Syria and Egypt , with support from other Arab nations , launched a surprise attack on Israel , on Yom Kippur . This renewal of hostilities in the Arab \u2013 Israeli conflict released the underlying economic pressure on oil prices . At the time , Iran was the world 's second - largest oil exporter and a close US ally . Weeks later , the Shah of Iran said in an interview : \" Of course [ the price of oil ] is going to rise ... Certainly ! And how !... You 've [ Western nations ] increased the price of the wheat you sell us by 300 percent , and the same for sugar and cement ... You buy our crude oil and sell it back to us , refined as petrochemicals , at a hundred times the price you 've paid us ... It 's only fair that , from now on , you should pay more for oil . Let 's say ten times more . \"",
+        "answers": [
+            [
+                "On October 6, 1973",
+                0,
+                4
+            ],
+            [
+                "renewal of hostilities in the Arab\u2013Israeli conflict",
+                29,
+                37
+            ],
+            [
+                "Iran",
+                51,
+                51
+            ],
+            [
+                "Iran",
+                51,
+                51
+            ],
+            [
+                "ten times more",
+                172,
+                174
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Chloroplasts are one of many types of organelles in the plant cell . They are considered to have originated from cyanobacteria through endosymbiosis\u2014when a eukaryotic cell engulfed a photosynthesizing cyanobacterium that became a permanent resident in the cell . Mitochondria are thought to have come from a similar event , where an aerobic prokaryote was engulfed . This origin of chloroplasts was first suggested by the Russian biologist Konstantin Mereschkowski in 1905 after Andreas Schimper observed in 1883 that chloroplasts closely resemble cyanobacteria . Chloroplasts are only found in plants and algae .",
+        "answers": [
+            [
+                "Russian",
+                66,
+                66
+            ],
+            [
+                "biologist",
+                67,
+                67
+            ],
+            [
+                "1905",
+                71,
+                71
+            ],
+            [
+                "Andreas Schimper",
+                73,
+                74
+            ],
+            [
+                "plants and algae",
+                89,
+                91
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The Colorado experiments had prepared Tesla for the establishment of the trans-Atlantic wireless telecommunications facility known as Wardenclyffe near Shoreham , Long Island .",
+        "answers": [
+            [
+                "trans-Atlantic wireless telecommunications facility",
+                11,
+                14
+            ],
+            [
+                "Wardenclyffe",
+                17,
+                17
+            ],
+            [
+                "near Shoreham, Long Island",
+                18,
+                22
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The centre - left Australian Labor Party ( ALP ) , the centre - right Liberal Party of Australia , the rural - based National Party of Australia , and the environmentalist Australian Greens are Victoria 's main political parties . Traditionally , Labor is strongest in Melbourne 's working class western and northern suburbs , and the regional cities of Ballarat , Bendigo and Geelong . The Liberals ' main support lies in Melbourne 's more affluent eastern and outer suburbs , and some rural and regional centres . The Nationals are strongest in Victoria 's North Western and Eastern rural regional areas . The Greens , who won their first lower house seats in 2014 , are strongest in inner Melbourne .",
+        "answers": [
+            [
+                "Australian Labor Party",
+                4,
+                6
+            ],
+            [
+                "Liberal Party",
+                15,
+                16
+            ],
+            [
+                "National Party",
+                24,
+                25
+            ],
+            [
+                "Labor",
+                43,
+                43
+            ],
+            [
+                "The Greens",
+                105,
+                106
+            ]
+        ]
+    },
+    {
+        "context_tokens": "In the visual arts , the Normans did not have the rich and distinctive traditions of the cultures they conquered . However , in the early 11th century the dukes began a programme of church reform , encouraging the Cluniac reform of monasteries and patronising intellectual pursuits , especially the proliferation of scriptoria and the reconstitution of a compilation of lost illuminated manuscripts . The church was utilised by the dukes as a unifying force for their disparate duchy . The chief monasteries taking part in this \" renaissance \" of Norman art and scholarship were Mont - Saint - Michel , F\u00e9camp , Jumi\u00e8ges , Bec , Saint - Ouen , Saint - Evroul , and Saint - Wandrille . These centres were in contact with the so - called \" Winchester school \" , which channeled a pure Carolingian artistic tradition to Normandy . In the final decade of the 11th and first of the 12th century , Normandy experienced a golden age of illustrated manuscripts , but it was brief and the major scriptoria of Normandy ceased to function after the midpoint of the century .",
+        "answers": [
+            [
+                "early 11th century",
+                25,
+                27
+            ],
+            [
+                "dukes",
+                29,
+                29
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The Swahili built Mombasa into a major port city and established trade links with other nearby city - states , as well as commercial centres in Persia , Arabia , and even India . By the 15th - century , Portuguese voyager Duarte Barbosa claimed that \" Mombasa is a place of great traffic and has a good harbour in which there are always moored small craft of many kinds and also great ships , both of which are bound from Sofala and others which come from Cambay and Melinde and others which sail to the island of Zanzibar . \"",
+        "answers": [
+            [
+                "The Swahili",
+                0,
+                1
+            ],
+            [
+                "Mombasa",
+                3,
+                3
+            ],
+            [
+                "Duarte Barbosa",
+                42,
+                43
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Since September 2004 , the official home of the Scottish Parliament has been a new Scottish Parliament Building , in the Holyrood area of Edinburgh . The Scottish Parliament building was designed by Spanish architect Enric Miralles in partnership with local Edinburgh Architecture firm RMJM which was led by Design Principal Tony Kettle . Some of the principal features of the complex include leaf - shaped buildings , a grass - roofed branch merging into adjacent parkland and gabion walls formed from the stones of previous buildings . Throughout the building there are many repeated motifs , such as shapes based on Raeburn 's Skating Minister . Crow - stepped gables and the upturned boat skylights of the Garden Lobby , complete the unique architecture . Queen Elizabeth II opened the new building on 9 October 2004 .",
+        "answers": [
+            [
+                "Scottish Parliament Building",
+                15,
+                17
+            ],
+            [
+                "Spanish",
+                33,
+                33
+            ],
+            [
+                "Enric Miralles",
+                35,
+                36
+            ],
+            [
+                "leaf-shaped",
+                63,
+                65
+            ],
+            [
+                "Queen Elizabeth II",
+                126,
+                128
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The history of the steam engine stretches back as far as the first century AD ; the first recorded rudimentary steam engine being the aeolipile described by Greek mathematician Hero of Alexandria . In the following centuries , the few steam - powered \" engines \" known were , like the aeolipile , essentially experimental devices used by inventors to demonstrate the properties of steam . A rudimentary steam turbine device was described by Taqi al - Din in 1551 and by Giovanni Branca in 1629 . Jer\u00f3nimo de Ayanz y Beaumont received patents in 1606 for fifty steam powered inventions , including a water pump for draining inundated mines . Denis Papin , a Huguenot refugee , did some useful work on the steam digester in 1679 , and first used a piston to raise weights in 1690 .",
+        "answers": [
+            [
+                "first",
+                12,
+                12
+            ],
+            [
+                "Greek",
+                27,
+                27
+            ],
+            [
+                "Hero of Alexandria",
+                29,
+                31
+            ],
+            [
+                "Giovanni Branca",
+                82,
+                83
+            ],
+            [
+                "1606",
+                95,
+                95
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Fresno is the largest U.S. city not directly linked to an Interstate highway . When the Interstate Highway System was created in the 1950s , the decision was made to build what is now Interstate 5 on the west side of the Central Valley , and thus bypass many of the population centers in the region , instead of upgrading what is now State Route 99 . Due to rapidly raising population and traffic in cities along SR 99 , as well as the desirability of Federal funding , much discussion has been made to upgrade it to interstate standards and eventually incorporate it into the interstate system , most likely as Interstate 9 . Major improvements to signage , lane width , median separation , vertical clearance , and other concerns are currently underway .",
+        "answers": [
+            [
+                "Fresno",
+                0,
+                0
+            ],
+            [
+                "1950s",
+                23,
+                23
+            ],
+            [
+                "rapidly raising population and traffic in cities along SR 99",
+                69,
+                78
+            ],
+            [
+                "99",
+                78,
+                78
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The French Protestant Church of London was established by Royal Charter in 1550 . It is now located at Soho Square . Hugue not refugees flocked to Shoreditch , London . They established a major weaving industry in and around Spitalfields ( see Petticoat Lane and the Tenterground ) in East London . In Wandsworth , their gardening skills benefited the Battersea market gardens . The Old Truman Brewery , then known as the Black Eagle Brewery , was founded in 1724 . The flight of Huguenot refugees from Tours , France drew off most of the workers of its great silk mills which they had built . [ citation needed ] Some of these immigrants moved to Norwich , which had accommodated an earlier settlement of Walloon weavers . The French added to the existing immigrant population , then comprising about a third of the population of the city .",
+        "answers": [
+            [
+                "The French Protestant Church of London",
+                0,
+                5
+            ],
+            [
+                "1550",
+                12,
+                12
+            ],
+            [
+                "Soho Square",
+                19,
+                20
+            ],
+            [
+                "Shoreditch",
+                27,
+                27
+            ],
+            [
+                "1724",
+                81,
+                81
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The property of being prime ( or not ) is called primality . A simple but slow method of verifying the primality of a given number n is known as trial division . It consists of testing whether n is a multiple of any integer between 2 and . Algorithms much more efficient than trial division have been devised to test the primality of large numbers . These include the Miller \u2013 Rabin primality test , which is fast but has a small probability of error , and the AKS primality test , which always produces the correct answer in polynomial time but is too slow to be practical . Particularly fast methods are available for numbers of special forms , such as Mersenne numbers . As of January 2016 [ update ] , the largest known prime number has 22,338,618 decimal digits .",
+        "answers": [
+            [
+                "primality",
+                11,
+                11
+            ],
+            [
+                "trial division",
+                30,
+                31
+            ],
+            [
+                "the Miller\u2013Rabin primality test",
+                69,
+                74
+            ],
+            [
+                "the AKS primality test",
+                88,
+                91
+            ],
+            [
+                "22,338,618 decimal digits",
+                140,
+                142
+            ]
+        ]
+    },
+    {
+        "context_tokens": "After a chloroplast polypeptide is synthesized on a ribosome in the cytosol , an enzyme specific to chloroplast proteins phosphorylates , or adds a phosphate group to many ( but not all ) of them in their transit sequences . Phosphorylation helps many proteins bind the polypeptide , keeping it from folding prematurely . This is important because it prevents chloroplast proteins from assuming their active form and carrying out their chloroplast functions in the wrong place\u2014 the cytosol . At the same time , they have to keep just enough shape so that they can be recognized by the chloroplast . These proteins also help the polypeptide get imported into the chloroplast .",
+        "answers": [
+            [
+                "a ribosome",
+                7,
+                8
+            ],
+            [
+                "in the cytosol",
+                9,
+                11
+            ],
+            [
+                "helps many proteins bind the polypeptide",
+                41,
+                46
+            ],
+            [
+                "keeping it from folding prematurely",
+                48,
+                52
+            ]
+        ]
+    },
+    {
+        "context_tokens": "In the United States , the industry in 2014 has around $ 960 billion in annual revenue according to statistics tracked by the Census Bureau , of which $ 680 billion is private ( split evenly between residential and nonresidential ) and the remainder is government . As of 2005 , there were about 667,000 firms employing 1 million contractors ( 200,000 general contractors , 38,000 heavy , and 432,000 specialty ) ; the average contractor employed fewer than 10 employees . As a whole , the industry employed an estimated 5.8 million as of April 2013 , with a 13.2 % unemployment rate . In the United States , approximately 828,000 women were employed in the construction industry as of 2011 .",
+        "answers": [
+            [
+                "$960 billion",
+                11,
+                13
+            ],
+            [
+                "$680 billion",
+                28,
+                30
+            ],
+            [
+                "667,000 firms",
+                54,
+                55
+            ],
+            [
+                "fewer than 10 employees",
+                77,
+                80
+            ],
+            [
+                "828,000",
+                111,
+                111
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Following guidelines set in the National Cycling strategy , Newcastle first developed its cycling strategy in 1998 . As of 2012 , the local council social aims and objectives for cycling include : highlighting the usage of cycling to cut city congestion ; educating that cycling promotes healthy living \u2026 The authority also has infrastructure aims and objectives which include : developing on road cycle networks on quieter streets ; making safer routes on busier streets ; innovating and implementing contraflows on one way streets ; developing the existing off road cycle route networks and improve signage ; joining up routes that are partially or completely isolated ; Increase the number of cycle parking facilities ; working with employers to integrate cycling into workplace travel plans ; link the local networks to national networks .",
+        "answers": [
+            [
+                "1998",
+                16,
+                16
+            ],
+            [
+                "highlighting the usage of cycling",
+                33,
+                37
+            ],
+            [
+                "healthy",
+                47,
+                47
+            ],
+            [
+                "one way",
+                82,
+                83
+            ],
+            [
+                "national networks",
+                132,
+                133
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Tesla was 6 feet 2 inches ( 1.88 m ) tall and weighed 142 pounds ( 64 kg ) , with almost no weight variance from 1888 to about 1926. : 292 He was an elegant , stylish figure in New York City , meticulous in his grooming , clothing , and regimented in his daily activities .",
+        "answers": [
+            [
+                "6 feet 2 inches",
+                2,
+                5
+            ],
+            [
+                "142 pounds",
+                13,
+                14
+            ],
+            [
+                "1888 to about 1926",
+                26,
+                29
+            ],
+            [
+                "New York City",
+                40,
+                42
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The Parish Church of St Andrew is traditionally recognised as ' the oldest church in this town ' . The present building was begun in the 12th Century and the last addition to it , apart from the vestries , was the main porch in 1726 . It is quite possible that there was an earlier church here dating from Saxon times . This older church would have been one of several churches along the River Tyne dedicated to St Andrew , including the Priory church at Hexham . The building contains more old stonework than any other church in Newcastle . It is surrounded by the last of the ancient churchyards to retain its original character . Many key names associated with Newcastle 's history worshipped and were buried here . The church tower received a battering during the Siege of Newcastle by the Scots who finally breached the Town Wall and forced surrender . Three of the cannonballs remain on site as testament to the siege .",
+        "answers": [
+            [
+                "The Parish Church of St Andrew",
+                0,
+                5
+            ],
+            [
+                "the main porch",
+                41,
+                43
+            ],
+            [
+                "1726",
+                45,
+                45
+            ],
+            [
+                "ancient churchyards",
+                110,
+                111
+            ],
+            [
+                "The church tower",
+                132,
+                134
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The second main legislative body is the Council , which is composed of different ministers of the member states . The heads of government of member states also convene a \" European Council \" ( a distinct body ) that the TEU article 15 defines as providing the ' necessary impetus for its development and shall define the general political directions and priorities ' . It meets each six months and its President ( currently former Poland Prime Minister Donald Tusk ) is meant to ' drive forward its work ' , but it does not itself ' legislative functions ' . The Council does this : in effect this is the governments of the member states , but there will be a different minister at each meeting , depending on the topic discussed ( e.g. for environmental issues , the member states ' environment ministers attend and vote ; for foreign affairs , the foreign ministers , etc . ) . The minister must have the authority to represent and bin the member states in decisions . When voting takes place it is weighted inversely to member state size , so smaller member states are not dominated by larger member states . In total there are 352 votes , but for most acts there must be a qualified majority vote , if not consensus . TEU article 16 ( 4 ) and TFEU article 238 ( 3 ) define this to mean at least 55 per cent of the Council members ( not votes ) representing 65 per cent of the population of the EU : currently this means around 74 per cent , or 260 of the 352 votes . This is critical during the legislative process .",
+        "answers": [
+            [
+                "the Council",
+                6,
+                7
+            ],
+            [
+                "different ministers of the member states",
+                13,
+                18
+            ],
+            [
+                "each six months",
+                67,
+                69
+            ],
+            [
+                "Donald Tusk",
+                79,
+                80
+            ],
+            [
+                "inversely",
+                185,
+                185
+            ],
+            [
+                "352",
+                207,
+                207
+            ],
+            [
+                "352",
+                207,
+                207
+            ],
+            [
+                "at least 55 per cent of the Council members (not votes) representing 65 per cent of the population of the EU",
+                243,
+                265
+            ],
+            [
+                "260",
+                276,
+                276
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Looking beyond the manned lunar landings , NASA investigated several post-lunar applications for Apollo hardware . The Apollo Extension Series ( Apollo X , ) proposed up to 30 flights to Earth orbit , using the space in the Spacecraft Lunar Module Adapter ( SLA ) to house a small orbital laboratory ( workshop ) . Astronauts would continue to use the CSM as a ferry to the station . This study was followed by design of a larger orbital workshop to be built in orbit from an empty S - IVB Saturn upper stage , and grew into the Apollo Applications Program ( AAP ) . The workshop was to be supplemented by Apollo Telescope Missions , which would replace the LM 's descent stage equipment and engine with a solar telescope observatory . The most ambitious plan called for using an empty S - IVB as an interplanetary spacecraft for a Venus fly - by mission .",
+        "answers": [
+            [
+                "Apollo X",
+                21,
+                22
+            ],
+            [
+                "Apollo Applications Program",
+                100,
+                102
+            ],
+            [
+                "Venus",
+                153,
+                153
+            ]
+        ]
+    },
+    {
+        "context_tokens": "There have been instances of actors returning at later dates to reprise the role of their specific Doctor . In 1973 's The Three Doctors , William Hartnell and Patrick Troughton returned alongside Jon Pertwee . For 1983 's The Five Doctors , Troughton and Pertwee returned to star with Peter Davison , and Tom Baker appeared in previously unseen footage from the uncompleted Shada episode . For this episode , Richard Hurndall replaced William Hartnell . Patrick Troughton again returned in 1985 's The Two Doctors with Colin Baker . In 2007 , Peter Davison returned in the Children in Need short \" Time Crash \" alongside David Tennant , and most recently in 2013 's 50th anniversary special episode , \" The Day of the Doctor \" , David Tennant 's Tenth Doctor appeared alongside Matt Smith as the Eleventh Doctor and John Hurt as the War Doctor , as well as brief footage from all of the previous actors . In addition , the Doctor has occasionally encountered himself in the form of his own incarnation , from the near future or past . The First Doctor encounters himself in the story The Space Museum ( albeit frozen and as an exhibit ) , the Third Doctor encounters and interacts with himself in the story Day of the Daleks , the Fourth Doctor encounters and interacts with the future incarnation of himself ( the ' Watcher ' ) in the story Logopolis , the Ninth Doctor observes a former version of his current incarnation in \" Father 's Day \" , and the Eleventh Doctor briefly comes face to face with himself in \" The Big Bang \" . In \" The Almost People \" the Doctor comes face - to - face with himself although it is found out that this incarnation is in fact just a flesh replica . In \" The Name of the Doctor \" , the Eleventh Doctor meets an unknown incarnation of himself , whom he refers to as \" his secret \" and who is subsequently revealed to be the War Doctor .",
+        "answers": [
+            [
+                "The Three Doctors",
+                22,
+                24
+            ],
+            [
+                "Peter Davison",
+                94,
+                95
+            ],
+            [
+                "The Day of the Doctor",
+                123,
+                127
+            ],
+            [
+                "The Space Museum",
+                195,
+                197
+            ],
+            [
+                "the War Doctor",
+                349,
+                351
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Subject Committees are established at the beginning of each parliamentary session , and again the members on each committee reflect the balance of parties across Parliament . Typically each committee corresponds with one ( or more ) of the departments ( or ministries ) of the Scottish Government . The current Subject Committees in the fourth Session are : Economy , Energy and Tourism ; Education and Culture ; Health and Sport ; Justice ; Local Government and Regeneration ; Rural Affairs , Climate Change and Environment ; Welfare Reform ; and Infrastructure and Capital Investment .",
+        "answers": [
+            [
+                "beginning of each parliamentary session",
+                6,
+                10
+            ],
+            [
+                "one",
+                32,
+                32
+            ],
+            [
+                "current Subject Committees",
+                50,
+                52
+            ],
+            [
+                "Session",
+                56,
+                56
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Approximately one million Protestants in modern France represent some 2 % of its population . Most are concentrated in Alsace in northeast France and the C\u00e9vennes mountain region in the south , who still regard themselves as Huguenots to this day . [ citation needed ] A diaspora of French Australians still considers itself Huguenot , even after centuries of exile . Long integrated into Australian society , it is encouraged by the Huguenot Society of Australia to embrace and conserve its cultural heritage , aided by the Society 's genealogical research services .",
+        "answers": [
+            [
+                "one million",
+                1,
+                2
+            ],
+            [
+                "2%",
+                9,
+                10
+            ],
+            [
+                "Alsace",
+                19,
+                19
+            ],
+            [
+                "C\u00e9vennes",
+                25,
+                25
+            ],
+            [
+                "Australia",
+                76,
+                76
+            ]
+        ]
+    },
+    {
+        "context_tokens": "Lake Constance consists of three bodies of water : the Obersee ( \" upper lake \" ) , the Untersee ( \" lower lake \" ) , and a connecting stretch of the Rhine , called the Seerhein ( \" Lake Rhine \" ) . The lake is situated in Germany , Switzerland and Austria near the Alps . Specifically , its shorelines lie in the German states of Bavaria and Baden - W\u00fcrttemberg , the Austrian state of Vorarlberg , and the Swiss cantons of Thurgau and St. Gallen . The Rhine flows into it from the south following the Swiss - Austrian border . It is located at approximately 47 \u00b0 39 \u2032 N 9\u00b019 \u2032 E \ufeff / \ufeff 47.650\u00b0 N 9.317 \u00b0 E\ufeff / 47.650 ; 9.317 .",
+        "answers": [
+            [
+                "three",
+                4,
+                4
+            ],
+            [
+                "three",
+                4,
+                4
+            ],
+            [
+                "upper lake",
+                13,
+                14
+            ],
+            [
+                "lower lake",
+                22,
+                23
+            ],
+            [
+                "Lake Rhine",
+                40,
+                41
+            ],
+            [
+                "Austria",
+                54,
+                54
+            ],
+            [
+                "Alps",
+                57,
+                57
+            ],
+            [
+                "Baden-W\u00fcrttemberg",
+                71,
+                73
+            ],
+            [
+                "Swiss-Austrian border",
+                101,
+                104
+            ],
+            [
+                "47\u00b039\u2032N 9\u00b019\u2032E\ufeff / \ufeff47.650\u00b0N 9.317\u00b0E\ufeff / 47.650; 9.317.",
+                111,
+                131
+            ]
+        ]
+    },
+    {
+        "context_tokens": "European Union law is applied by the courts of member states and the Court of Justice of the European Union . Where the laws of member states provide for lesser rights European Union law can be enforced by the courts of member states . In case of European Union law which should have been transposed into the laws of member states , such as Directives , the European Commission can take proceedings against the member state under the Treaty on the Functioning of the European Union . The European Court of Justice is the highest court able to interpret European Union law . Supplementary sources of European Union law include case law by the Court of Justice , international law and general principles of European Union law .",
+        "answers": [
+            [
+                "the courts of member states and the Court of Justice of the European Union",
+                6,
+                19
+            ],
+            [
+                "courts of member states and the Court of Justice of the European Union",
+                7,
+                19
+            ],
+            [
+                "courts of member states and the Court of Justice of the European Union",
+                7,
+                19
+            ],
+            [
+                "the courts of member states",
+                38,
+                42
+            ],
+            [
+                "courts of member states",
+                39,
+                42
+            ],
+            [
+                "the Treaty on the Functioning of the European Union",
+                77,
+                85
+            ],
+            [
+                "Treaty on the Functioning of the European Union",
+                78,
+                85
+            ],
+            [
+                "The European Court of Justice",
+                87,
+                91
+            ],
+            [
+                "The European Court of Justice",
+                87,
+                91
+            ],
+            [
+                "The European Court of Justice",
+                87,
+                91
+            ],
+            [
+                "case law by the Court of Justice, international law and general principles of European Union law",
+                110,
+                126
+            ],
+            [
+                "international law",
+                118,
+                119
+            ],
+            [
+                "international law",
+                118,
+                119
+            ]
+        ]
+    },
+    {
+        "context_tokens": "The Victorian Alps in the northeast are the coldest part of Victoria . The Alps are part of the Great Dividing Range mountain system extending east - west through the centre of Victoria . Average temperatures are less than 9 \u00b0 C ( 48 \u00b0 F ) in winter and below 0 \u00b0 C ( 32 \u00b0 F ) in the highest parts of the ranges . The state 's lowest minimum temperature of \u2212 11.7 \u00b0C ( 10.9 \u00b0 F ) was recorded at Omeo on 13 June 1965 , and again at Falls Creek on 3 July 1970 . Temperature extremes for the state are listed in the table below :",
+        "answers": [
+            [
+                "Victorian Alps",
+                1,
+                2
+            ],
+            [
+                "Great Dividing Range",
+                19,
+                21
+            ],
+            [
+                "east-west",
+                25,
+                27
+            ],
+            [
+                "below 0 \u00b0C",
+                50,
+                53
+            ],
+            [
+                "\u221211.7 \u00b0C",
+                74,
+                76
+            ]
+        ]
+    },
+    {
+        "context_tokens": "In Japan , at the end of the Asuka period ( 538\u2013710 ) and the early Nara period ( 710 \u2013 794 ) , the men who fulfilled roles similar to those of modern pharmacists were highly respected . The place of pharmacists in society was expressly defined in the Taih\u014d Code ( 701 ) and re-stated in the Y\u014dr\u014d Code ( 718 ) . Ranked positions in the pre-Heian Imperial court were established ; and this organizational structure remained largely intact until the Meiji Restoration ( 1868 ) . In this highly stable hierarchy , the pharmacists\u2014and even pharmacist assistants\u2014were assigned status superior to all others in health - related fields such as physicians and acupuncturists . In the Imperial household , the pharmacist was even ranked above the two personal physicians of the Emperor .",
+        "answers": [
+            [
+                "highly respected",
+                36,
+                37
+            ],
+            [
+                "the Taih\u014d Code (701) and re-stated in the Y\u014dr\u014d Code (718)",
+                49,
+                63
+            ],
+            [
+                "the pre-Heian Imperial court",
+                68,
+                71
+            ],
+            [
+                "status superior to all others in health-related fields such as physicians and acupuncturists",
+                102,
+                116
+            ],
+            [
+                "ranked above",
+                127,
+                128
+            ]
+        ]
+    }
+]
