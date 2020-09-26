@@ -34,6 +34,22 @@
 	font-size: 1.5em;
 } */
 
+
+.top-doc {
+	margin-bottom: 100px;
+}
+
+
+.docid {
+	padding-top: 10px;
+	margin-left: 5%;
+	font-size: 2em;
+	font-weight: bold;
+	float: left;
+	/* color: rgb(29, 4, 88); */
+}
+
+
 .container {
 	padding-left: 15px;
 	padding-right: 15px;
@@ -53,8 +69,8 @@
 
 
 .page-div {
-	margin-top: 100px;
 	margin-left: 50px;
+	float: left;
 }
 
 
@@ -67,7 +83,7 @@
 	padding-right: 5px;
 	padding-left: 5px;
 
-	margin-right: 300px;
+	margin-right: 150px;
 
 	font-size: 1.5em;
 }

@@ -19,13 +19,27 @@ class User(object):
 
         self.total_num = len(self.raw_data)
         self.annotated_num = len(self.ann_data)
-        self.position = self.annotated_num
+        self.position = self.annotated_num  # the page showing
 
     def next(self):
         '''
         get current data
         '''
         return self.raw_data[self.position] if self.position >= self.annotated_num else self.ann_data[self.position]
+
+    def get_curr_docID(self):
+        return self.position + 1
+
+    def get_data(self, page_id):
+        page_id -= 1
+        if page_id < 0 or page_id >= self.total_num:
+            raise ValueError("Page index out of range!")
+
+        self.position = page_id
+        if page_id >= self.annotated_num:
+            return self.raw_data[page_id]
+        else:
+            return self.ann_data[page_id]
 
     # def last(self):
     #     self.position -= 1

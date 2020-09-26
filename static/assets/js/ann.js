@@ -51,3 +51,69 @@ mydiv.ondblclick = function() {
     var startContainer = range.startContainer.parentElement;
     clearcolor(startContainer.getAttribute("ansid"));
 }
+
+
+function getAnnData() {
+    var total_ann = [];
+
+    for (var child of mydiv.getElementsByTagName("span")) {
+        total_ann.push(int(child.getAttribute("ansid")));
+    }
+
+    var res = [];
+    var tmp_res = [];
+    
+    for (var i = 0; i < total_ann.length; i++) {
+        var tmp_id = total_ann[i];
+        if (tmp_id != 0) {  // this one is annotated
+            if (tmp_res.length == 0) {  // last one is not annotated or non exists
+                tmp_res.push(i);
+            }
+            else {  // last one is annotated
+                if (tmp_id == total_ann[tmp_res[0]]) {  // same id
+                    tmp_res.push(i);
+                } else {    // different id
+                    res.push(tmp_res);
+                    tmp_res = [i];
+                }
+            }
+        } else {    // this one is not annotated
+            if (tmp_res.length != 0) {  // last one is annotated
+                res.push(tmp_res);
+                tmp_res = [];
+            }
+        }
+    }
+
+    return total_ann;
+}
+
+
+function save_page(action) {
+    alert("ssssss");
+    var data_list = getAnnData();
+    var data_str = JSON.stringify(getAnnData());
+    $.ajax({
+        type: 'POST',
+        async: false,
+        url: '/savepost',
+        // contentType: "application/x-www-form-urlencoded",
+        // data: {"array": data_list, "action": action},
+        success : function(data) {  
+            alert(data);
+        } 
+    });
+}
+
+
+document.getElementById("previous").onclick = function() {
+    save_page("previous");
+}
+
+document.getElementById("next").onclick = function() {
+    save_page("next");
+}
+
+document.getElementById("save").onclick = function() {
+    save_page("save");
+}

@@ -11,6 +11,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="stylesheet" href="{{url_for('static', filename='assets/css/ann.css')}}"/>
+	<link rel="icon" href="data:;base64,=">
 </head>
 
 <body>
@@ -24,24 +25,36 @@
 		</div>
 	</nav> -->
 	<div class="note"><p>If there is any problem, please copy you annotated data first(Which is in "data/annotated/xx.json")!</p></div>
+
+	<div class="top-doc">
+		<div class="docid">
+			<h>Doc: {{ doc_id }} / {{ doc_total }}</h>
+		</div>
+		<div class="page-div">
+			<ul class="page-ul">
+				<li class="page-li" id="previous">
+					<!-- <a href="/pages/?page_id={{ doc_id - 1 }}">Previous</a> -->
+					Previous
+				</li>
+				<li class="page-li" id="next">
+					<!-- <a href="/pages/?page_id={{ doc_id + 1 }}">Next</a> -->
+					Next
+				</li>
+				<li class="page-li" id="save">
+					<!-- <a href="/pages/?page_id={{ doc_id + 1 }}">Save</a> -->
+					Save
+				</li>
+			</ul>
+		</div>
+	</div>
+
     <div class="container" id="context">
 		{% for token in doc %}
 			<span ansid="0">{{ token }}</span>
 		{% endfor %}
 	</div>
-	
-
-	<div class="page-div">
-		<ul class="page-ul">
-			<li class="page-li">
-				Previous
-			</li>
-			<li class="page-li">
-				Next
-			</li>
-		</ul>
-	</div>
 </body>
 
+<script src="{{url_for('static', filename='assets/js/jquery-3.5.1.min.js') }}"></script>
 <script src="{{url_for('static', filename='assets/js/ann.js')}}"></script>
 </html>

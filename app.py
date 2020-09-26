@@ -30,10 +30,35 @@ def login():
         ann_user.load_data()
         curr_data = ann_user.next()
         token_list = curr_data["context_tokens"].split(" ")
-        return render_template("ann.html", doc=token_list)
+        doc_id = ann_user.get_curr_docID()
+        doc_total = ann_user.total_num
+        return render_template("ann.html", doc=token_list, doc_id=doc_id, doc_total=doc_total)
         # return render_template("test.html")
     else:
         return render_template("main.html")
+
+
+@app.route("/pages/", methods=['GET'])
+def next_page():
+    global ann_user
+    page_id = int(request.args.get("page_id"))
+    if page_id < 1:
+        page_id = 1
+    if page_id > ann_user.total_num:
+        page_id = ann_user.total_num
+
+    curr_data = ann_user.get_data(page_id)
+    token_list = curr_data["context_tokens"].split(" ")
+    doc_total = ann_user.total_num
+    return render_template("ann.html", doc=token_list, doc_id=page_id, doc_total=doc_total)
+
+
+@app.route('/savepost', methods=['GET', 'POST'])
+def savepost():
+    print("get")
+    data = request.form.get("array")
+    print(data)
+    return "2333"
 
 
 if __name__ == "__main__":
