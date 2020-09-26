@@ -19,3 +19,14 @@ class User(object):
 
         self.total_num = len(self.raw_data)
         self.annotated_num = len(self.ann_data)
+        self.position = self.annotated_num
+
+    def next(self):
+        '''
+        get current data
+        '''
+        return self.raw_data[self.position] if self.position >= self.annotated_num else self.ann_data[self.position]
+
+    # def last(self):
+    #     self.position -= 1
+    #     return self.ann_data[self.position]

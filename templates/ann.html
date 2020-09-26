@@ -10,8 +10,7 @@
     <title>Data annotation</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="{{url_for('static', filename='assets/css/ann.css')}}"/>
-    <!-- <link rel="stylesheet" href="static/spatial/assets/css/paginate.css"/> -->
+	<link rel="stylesheet" href="{{url_for('static', filename='assets/css/ann.css')}}"/>
 </head>
 
 <body>
@@ -24,8 +23,25 @@
 			</ul>
 		</div>
 	</nav> -->
-    <div class="container">
-        <p>teststets</p>
-    </div>
+	<div class="note"><p>If there is any problem, please copy you annotated data first(Which is in "data/annotated/xx.json")!</p></div>
+    <div class="container" id="context">
+		{% for token in doc %}
+			<span ansid="0">{{ token }}</span>
+		{% endfor %}
+	</div>
+	
+
+	<div class="page-div">
+		<ul class="page-ul">
+			<li class="page-li">
+				Previous
+			</li>
+			<li class="page-li">
+				Next
+			</li>
+		</ul>
+	</div>
 </body>
+
+<script src="{{url_for('static', filename='assets/js/ann.js')}}"></script>
 </html>

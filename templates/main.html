@@ -10,18 +10,17 @@
     <title>Data annotation</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <!-- <link rel="stylesheet" href="static/spatial/assets/css/main.css"/> -->
-    <!-- <link rel="stylesheet" href="static/spatial/assets/css/paginate.css"/> -->
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/css/main.css')}}"/>
 </head>
 
-<body class="landing">
+<body>
 
     <form action="/login/" method="GET">
-        Your English name:<br>
-        <input type="text" name="name" placeholder="bran">
+        Your English name:<br><br>
+        <input class="input" type="text" name="name" placeholder="bran">
         <br><br>
-        <input type="submit" value="Submit">
-        </form> 
+        <input class="input" type="submit" value="Submit">
+    </form> 
 
 </body>
 </html>

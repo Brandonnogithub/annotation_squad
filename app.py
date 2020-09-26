@@ -9,6 +9,8 @@ app = Flask(__name__)
 host = os.getenv("HOST")
 port = os.getenv("PORT")
 
+app.jinja_env.auto_reload = True
+app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 ann_user = User()
 
@@ -26,7 +28,10 @@ def login():
     if name:
         ann_user.name = name
         ann_user.load_data()
-        return render_template("ann.html")
+        curr_data = ann_user.next()
+        token_list = curr_data["context_tokens"].split(" ")
+        return render_template("ann.html", doc=token_list)
+        # return render_template("test.html")
     else:
         return render_template("main.html")
 
