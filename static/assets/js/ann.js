@@ -136,7 +136,7 @@ document.getElementById("next").onclick = function() {
 }
 
 document.getElementById("save").onclick = function() {
-    save_page("save", 0);
+    save_page("save", get_doc_id());
 }
 
 function annotated_node(ann_list) {
