@@ -7,7 +7,6 @@ def trans_array(array):
     '''
     array: [0, 1,1, 0 ,3,3,...]
     '''
-    print(array)
     res = []
     tmp_res = []
     for index, i in enumerate(array):
