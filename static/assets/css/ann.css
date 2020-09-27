@@ -41,12 +41,26 @@
 
 
 .docid {
-	padding-top: 10px;
-	margin-left: 5%;
+	padding-top: 15px;
+	margin-left: 3%;
 	font-size: 2em;
 	font-weight: bold;
 	float: left;
 	/* color: rgb(29, 4, 88); */
+}
+
+
+.ann_num {
+	padding-top: 15px;
+	margin-left: 3%;
+	font-size: 2em;
+	font-weight: bold;
+	float: left;
+}
+
+
+#ann_count {
+	color: orangered;
 }
 
 
@@ -71,6 +85,7 @@
 .page-div {
 	margin-left: 50px;
 	float: left;
+	padding-left: 30px;
 }
 
 
@@ -80,6 +95,19 @@
 
 	padding-bottom: 5px;
 	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+
+	margin-right: 150px;
+
+	font-size: 1.5em;
+}
+
+.button {
+	display: inline;
+	border:5px solid rgb(32, 55, 184);
+	padding-bottom: 5px;
+	padding-top: 2px;
 	padding-right: 5px;
 	padding-left: 5px;
 

@@ -3,6 +3,30 @@ from config import config
 from utils.utils import load_json, dump_json, make_path
 
 
+def trans_array(array):
+    '''
+    array: [0, 1,1, 0 ,3,3,...]
+    '''
+    print(array)
+    res = []
+    tmp_res = []
+    for index, i in enumerate(array):
+        if i != 0:
+            if tmp_res:
+                if i == array[tmp_res[0]]:
+                    tmp_res.append(index)
+                else:
+                    res.append(tmp_res)
+                    tmp_res = [index]
+            else:
+                tmp_res.append(index)
+        else:
+            if tmp_res:
+                res.append(tmp_res)
+                tmp_res = []
+    return res
+
+
 class User(object):
     def __init__(self, name=None):
         self.name = name
@@ -44,3 +68,21 @@ class User(object):
     # def last(self):
     #     self.position -= 1
     #     return self.ann_data[self.position]
+
+    def update_ann(self, array):
+        new_array = trans_array(array)
+        data = self.raw_data[self.position]
+        data["ann"] = new_array
+
+        if self.position >= self.annotated_num:
+            self.ann_data.append(data)
+            self.annotated_num += 1
+        else:
+            self.ann_data[self.position] = data
+
+    def save(self):
+        dump_json(self.data_path, self.ann_data)
+
+        
+        
+        

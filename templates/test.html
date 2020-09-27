@@ -1,17 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Title</title>
-    </head>
-    <body>
-        <div id="context">
-            <!-- <span>aaaa</span><span>bbbb</span><span>cccc</span><span>dddd</span><span>eeee</span><span>ffff</span> -->
-            {% for i in range(10) %}
-            <span ansid="0">{{i}}{{i}}{{i}}{{i}}{{i}}{{i}}{{i}}{{i}}</span>
-            {% endfor %}
-        </div>
-    </body>
+<html>
+<head></head>
+<body>
+<form class="formXXX1" method="post">
+<br class="formXXX2" />
+<div class="form-group">
+<label for="
+telephone14">手机号: <input class="form1" type="iphone" id="a" name="a" maxlength="11" placeholder="请输入11位合法手机号" /> </label>
+</div>
+<div class="example-box">
+<label> 环境:</label>
+<label class="radio"> <input type="radio" id="b" name="b" value="0" checked="" /><span>b1</span> </label>
+<label class="radio"> <input type="radio" id="b" name="b" value="1" /><span>b2</span> </label>
+</div>
+<br />
+<div class="form-group">
+<button class="btn btn-primary" type="button" id="notify">提交</button>
+</div>
+</form>
+</body>
 
-    <script src="{{url_for('static', filename='assets/js/ann.js')}}"></script>
+//路径根据实际路径填写
+<script src="{{url_for('static', filename='assets/js/jquery-3.5.1.min.js') }}"></script>
+
+<script type = "text/javascript" >
+$('#notify').on('click',
+function() {
+//取变量
+var b= $("input[name='b']:checked").val(); //单选框取值
+var a= $('#a').val();
+var data = {
+data: JSON.stringify({
+'a': a,
+'b': b
+}),
+}
+
+//小于11位提示
+if (a.length != 11) {
+alert('手机号小于11位，请重新输入');
+return;
+}
+
+ //ajax 提交数据
+
+$.ajax({
+type: "POST",
+dataType: "json",
+url: "/aaa",//后端请求
+data: data,
+success: function(result) {
+console.log(result);
+{
+alert('3333' + result);
+}
+},
+error: function (result) {
+console.log(result);
+{
+alert(result);
+}
+}
+});
+
+})
+
+</script>
 </html>

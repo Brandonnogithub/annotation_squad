@@ -1,5 +1,6 @@
 import os
 import argparse
+import json
 from flask import Flask, request, render_template
 from user import User
 
@@ -32,33 +33,45 @@ def login():
         token_list = curr_data["context_tokens"].split(" ")
         doc_id = ann_user.get_curr_docID()
         doc_total = ann_user.total_num
-        return render_template("ann.html", doc=token_list, doc_id=doc_id, doc_total=doc_total)
+        if "ann" in curr_data:
+            ann_list = curr_data["ann"]
+        else:
+            ann_list = []
+        return render_template("ann.html", doc=token_list, doc_id=doc_id, doc_total=doc_total, ann_list=ann_list)
         # return render_template("test.html")
     else:
         return render_template("main.html")
 
 
-@app.route("/pages/", methods=['GET'])
-def next_page():
-    global ann_user
-    page_id = int(request.args.get("page_id"))
-    if page_id < 1:
-        page_id = 1
-    if page_id > ann_user.total_num:
-        page_id = ann_user.total_num
-
-    curr_data = ann_user.get_data(page_id)
-    token_list = curr_data["context_tokens"].split(" ")
-    doc_total = ann_user.total_num
-    return render_template("ann.html", doc=token_list, doc_id=page_id, doc_total=doc_total)
-
-
-@app.route('/savepost', methods=['GET', 'POST'])
+@app.route('/savepost', methods=['POST'])
 def savepost():
-    print("get")
-    data = request.form.get("array")
-    print(data)
-    return "2333"
+    global ann_user
+    data = json.loads(request.form.get("data"))
+    array = data["array"]
+    action = data["action"]
+    doc_id = int(data["doc_id"])
+    if doc_id < 1:
+        doc_id = 1
+    if doc_id > ann_user.total_num:
+        doc_id = ann_user.total_num
+
+    # save data
+    ann_user.update_ann(array)
+
+    # load new data
+    curr_data = ann_user.get_data(doc_id)
+    token_list = curr_data["context_tokens"].split(" ")
+    if "ann" in curr_data:
+        ann_list = curr_data["ann"]
+    else:
+        ann_list = []
+
+    if action == "save":
+        ann_user.save()
+
+    return {"token_list": token_list,
+            "doc_id": str(doc_id),
+            "ann_list": ann_list}
 
 
 if __name__ == "__main__":
@@ -68,6 +81,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.local:
-        app.run(host='127.0.0.1', port=args.port)
+        app.run(host='127.0.0.1', port=args.port, debug=True)
     else:
         app.run(host='0.0.0.0', port=args.port)

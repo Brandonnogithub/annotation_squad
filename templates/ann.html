@@ -27,23 +27,23 @@
 	<div class="note"><p>If there is any problem, please copy you annotated data first(Which is in "data/annotated/xx.json")!</p></div>
 
 	<div class="top-doc">
-		<div class="docid">
-			<h>Doc: {{ doc_id }} / {{ doc_total }}</h>
+		<div class="docid" doc_count="{{ doc_id }}" id="docid">
+			<h>Doc: <span id="id_span">{{ doc_id }}</span> / {{ doc_total }}</h>
+		</div>
+		<div class="ann_num" id="ann_num">
+			<h>Num: <span id="ann_count"></span></h>
 		</div>
 		<div class="page-div">
 			<ul class="page-ul">
-				<li class="page-li" id="previous">
-					<!-- <a href="/pages/?page_id={{ doc_id - 1 }}">Previous</a> -->
-					Previous
-				</li>
-				<li class="page-li" id="next">
-					<!-- <a href="/pages/?page_id={{ doc_id + 1 }}">Next</a> -->
-					Next
-				</li>
-				<li class="page-li" id="save">
-					<!-- <a href="/pages/?page_id={{ doc_id + 1 }}">Save</a> -->
-					Save
-				</li>
+				<!-- <li class="page-li"> -->
+					<button class="button" id="previous">Previous</button>
+				<!-- </li> -->
+				<!-- <li class="page-li"> -->
+					<button class="button" id="next">Next</button>
+				<!-- </li> -->
+				<!-- <li class="page-li"> -->
+					<button class="button" id="save">Save</button>
+				<!-- </li> -->
 			</ul>
 		</div>
 	</div>
@@ -57,4 +57,8 @@
 
 <script src="{{url_for('static', filename='assets/js/jquery-3.5.1.min.js') }}"></script>
 <script src="{{url_for('static', filename='assets/js/ann.js')}}"></script>
+<script type="text/javascript">
+	var ann_list = {{ ann_list|tojson }};
+	annotated_node(ann_list);
+</script>
 </html>
