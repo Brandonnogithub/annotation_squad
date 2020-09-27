@@ -14,7 +14,11 @@ function clearcolor(id_str) {
             child.style.color = "#000000";
         } 
     }
-    ann_count_span.innerHTML = Number(ann_count_span.innerHTML) - 1;
+    var tmp_n = Number(ann_count_span.innerHTML) - 1;
+    if (tmp_n < 0) {
+        tmp_n = 0;
+    }
+    ann_count_span.innerHTML = tmp_n;
 }
 
 function selecText() {
