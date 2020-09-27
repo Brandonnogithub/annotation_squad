@@ -27,14 +27,24 @@ function selecText() {
         var endContainer = range.endContainer.parentElement;
         var currNode = startContainer;
         var added = false;
+        var cleared = false;
+        var tmp_color = random_color();
         if (currNode.tagName != "DIV") {
             while (true) {
                 if (currNode.getAttribute("ansid") != "0") {
                     clearcolor(currNode.getAttribute("ansid"));
+                    cleared = true;
+                    if (added) {
+                        currNode.setAttribute("ansid", String(ans_id));
+                        currNode.style.color = tmp_color;
+                    }
+                } else {
+                    if (!cleared) {
+                        currNode.setAttribute("ansid", String(ans_id));
+                        currNode.style.color = tmp_color;
+                        added = true;
+                    }
                 }
-                currNode.setAttribute("ansid", String(ans_id));
-                currNode.style.color = "red";
-                added = true
                 
                 if (currNode == endContainer) {
                     break;
@@ -53,13 +63,13 @@ function selecText() {
     }, 200);
 }
 
-mydiv.ondblclick = function() {
-    clearTimeout(time);
-    var userSelection = window.getSelection();
-    var range = userSelection.getRangeAt(0);
-    var startContainer = range.startContainer.parentElement;
-    clearcolor(startContainer.getAttribute("ansid"));
-}
+// mydiv.ondblclick = function() {
+//     clearTimeout(time);
+//     var userSelection = window.getSelection();
+//     var range = userSelection.getRangeAt(0);
+//     var startContainer = range.startContainer.parentElement;
+//     clearcolor(startContainer.getAttribute("ansid"));
+// }
 
 
 function getAnnData() {
@@ -131,12 +141,36 @@ function annotated_node(ann_list) {
     for (var i = 0; i < ann_list.length; i++) {
         ans_id += 1;
         var ann_data = ann_list[i];
+        var tmp_color = random_color();
         for (var j = 0; j < ann_data.length; j++) {
             childs[ann_data[j]].setAttribute("ansid", String(ans_id));
-            childs[ann_data[j]].style.color = "red";
+            childs[ann_data[j]].style.color = tmp_color;
         }
     }
 
     // set num
     ann_count_span.innerHTML = ann_list.length;
 } 
+
+var color_set = ["red", "blue", "orange"];
+
+function random_color() {
+    var a = Math.floor(Math.random()*3);
+    return color_set[a];
+}
+
+
+// function random_color(){
+//     var r = Math.floor(Math.random()*50+150);
+//     var g = Math.floor(Math.random()*50+150);
+//     var b = Math.floor(Math.random()*50+150);
+//     return 'rgb('+ r +','+ g +','+ b + ')'
+//  }
+
+
+//  function random_color() {    
+//     return  '#' + (function(color){    
+//          return (color +=  '0123456789abcdef'[Math.floor(Math.random()*16)])    
+//          && (color.length == 6) ?  color : arguments.callee(color);    
+//     })('');    
+//  } 
