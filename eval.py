@@ -91,7 +91,7 @@ def eval(path1, path2):
 
         if len(pred_tokens) != 0:
             p = np.average(np.max(f1_matrix, axis=0))
-            r = np.average(np.max(f1_matrix, axis=0))
+            r = np.average(np.max(f1_matrix, axis=1))
             f = 2 * p * r / (p + r) if p > 0 and r > 0 else 0
 
             f_all += f
@@ -103,5 +103,5 @@ def eval(path1, path2):
 if __name__ == "__main__":
     path1 = "data/annotated/bran.json"
     path2 = "data/annotated/liuyunfei.json"
-    eval(path1, path2)
+    eval(path2, path1)
 
