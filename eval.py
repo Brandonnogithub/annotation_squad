@@ -64,6 +64,31 @@ def get_f1_matrix(gt_chunks, pred_chunks):
     return f1_matrix
 
 
+def fuzzy_match(a, b):
+    count = 0
+    for i in a:
+        for j in b:
+            if i == j:
+                count += 1
+    th = 0.5
+    if count / len(b) >= 0.5:
+        return True
+    else:
+        return False 
+
+
+def get_em(a, b):
+    count = 0
+    for i in a:
+        for j in b:
+            # if i == j:
+            #     count += 1
+            if fuzzy_match(i, j):
+                count += 1
+                break
+    return count
+
+
 def eval(path1, path2):
     data1 = load_json(path1)
     data2 = load_json(path2)
@@ -77,6 +102,10 @@ def eval(path1, path2):
 
     count = 0
     f_all = 0
+
+    c_e = 0
+    c_g = 0
+    c_p = 0
     for gt_data, pred_data in zip(data1, data2):
         assert gt_data["context_tokens"] == pred_data["context_tokens"]
         doc_list = gt_data["context_tokens"].split(" ")
@@ -97,11 +126,18 @@ def eval(path1, path2):
             f_all += f
             count += 1
 
+        c_e += get_em(gt_tokens, pred_tokens)
+        c_g += len(gt_tokens)
+        c_p += len(pred_tokens)
+
+    print(c_e / c_g)
+    print(c_e / c_p)
+
     print(f_all / count)
 
 
 if __name__ == "__main__":
     path1 = "data/annotated/bran.json"
     path2 = "data/annotated/liuyunfei.json"
-    eval(path2, path1)
+    eval(path1, path2)
 
